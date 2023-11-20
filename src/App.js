@@ -21,6 +21,9 @@ function App() {
   return (
     <div className="container mx-auto my-7">
       <ImageSearch setTerm={setTerm} />
+      {images.length === 0 && (
+        <h1 className="text-5xl text-center mt-32">이미지가 없습니다.</h1>
+      )}
       <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-7">
         {images.map((image) => (
           <ImageCard key={image.id} image={image} />
