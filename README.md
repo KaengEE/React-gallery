@@ -12,6 +12,6 @@ Pixabay API를 활용하여 이미지 검색이 가능한 갤러리
 
 EX) 빨간 꽃, red flower 등...
 
-##링크
+## 링크
 
 <a href="https://react-imagegallery-kaenghee.netlify.app/">이미지 갤러리🎨</a>
